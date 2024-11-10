@@ -1,6 +1,10 @@
 # topm
 
-A tool to display system memory usage.
+A tool to display system memory usage quickly and without frills. 
+
+**Built with:**
+- [Node.js](https://nodejs.org/)
+- [zx](https://github.com/google/zx)
 
 ![Screenshot](assets/ScreenShot.png)
 
