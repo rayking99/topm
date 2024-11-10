@@ -1,0 +1,24 @@
+{
+  "name": "topm",
+  "version": "1.0.0",
+  "description": "A tool to display system memory usage.",
+  "main": "memoryUsage.mjs",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": {
+    "topm": "./memoryUsage.mjs"
+  },
+  "scripts": {
+    "start": "NODE_NO_WARNINGS=1 zx memoryUsage.mjs", 
+    "topm_install_loc": "npm install && npm link", 
+    "topm_uninstall_loc": "npm unlink",
+    "topm_global": "npm install -g .",
+    "topm_global_del": "npm uninstall -g topm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^7.1.1"
+  }
+}
