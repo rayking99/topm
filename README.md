@@ -6,8 +6,6 @@ A tool to display system memory usage quickly and without frills.
 - [Node.js](https://nodejs.org/)
 - [zx](https://github.com/google/zx)
 
-![Screenshot](assets/ScreenShot.png)
-
 ## Installation
 ### Quick Installation
 
